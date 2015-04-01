@@ -7,7 +7,7 @@ function loadMap() {
   $('#form').val('');
   $( "#user-map" ).html('<div id="map"></div>');
   var map = L.map('map').setView([37.786799, -122.407396], 11);
-  L.tileLayer('//{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
     attribution:
     'Imagery © <a href="http://mapbox.com">Mapbox</a>',
