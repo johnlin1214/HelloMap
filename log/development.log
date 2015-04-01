@@ -11441,3 +11441,509 @@ Started GET "/assets/shouts-f965fc18a8edbcc11f357e67d2ab36af.js?body=1" for ::1 
   [1m[35m (0.0ms)[0m  begin transaction
   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "shouts" ("message", "lat", "lng", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["message", "Hello World!"], ["lat", 37.782159], ["lng", -122.40911], ["created_at", "2015-04-01 17:50:14.713694"], ["updated_at", "2015-04-01 17:50:14.713694"]]
   [1m[35m (0.7ms)[0m  commit transaction
+
+
+Started GET "/" for ::1 at 2015-04-01 11:06:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 207ms (Views: 192.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:06:46 -0700
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:06:47 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:06:47 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:06:47 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:07:21 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 137ms (Views: 135.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:07:22 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:07:22 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:07:22 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:07:22 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:07:22 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:07:22 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:07:22 -0700
+
+
+Started GET "/assets/shouts-df673beb512958136480391c408b3fa2.js?body=1" for ::1 at 2015-04-01 11:07:22 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:07:34 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 181ms (Views: 180.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:07:34 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:07:34 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:07:34 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:07:34 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:07:34 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:07:35 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:07:35 -0700
+
+
+Started GET "/assets/shouts-81ea8febf849a1f2602991a8164b63cc.js?body=1" for ::1 at 2015-04-01 11:07:35 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:07:35 -0700
+Processing by ShoutsController#index as JSON
+  [1m[35mShout Load (0.2ms)[0m  SELECT "shouts".* FROM "shouts"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/shouts" for ::1 at 2015-04-01 11:08:05 -0700
+Processing by ShoutsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0TLXAfOGm5e9K9tlRWQGSlxOHi5BaWayywmuhPrGHM0WOBQLQvznWho4u94d+tBojgy52xu4Azqf1gUzcbySFw==", "shout"=>{"message"=>"asdf", "lat"=>"37.299281799999996", "lng"=>"-122.00744050000002"}, "commit"=>"Say Hello"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "shouts" ("message", "lat", "lng", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["message", "asdf"], ["lat", 37.299281799999996], ["lng", -122.00744050000002], ["created_at", "2015-04-01 18:08:05.040381"], ["updated_at", "2015-04-01 18:08:05.040381"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/shouts
+Completed 302 Found in 9ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:08:05 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 129ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:08:05 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:08:05 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:08:05 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:08:05 -0700
+
+
+Started GET "/assets/shouts-81ea8febf849a1f2602991a8164b63cc.js?body=1" for ::1 at 2015-04-01 11:08:05 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:08:05 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:08:05 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:08:05 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:08:05 -0700
+Processing by ShoutsController#index as JSON
+  [1m[35mShout Load (0.2ms)[0m  SELECT "shouts".* FROM "shouts"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:08:14 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 164ms (Views: 163.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:08:14 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:08:14 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:08:14 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:08:14 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:08:14 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:08:14 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:08:14 -0700
+
+
+Started GET "/assets/shouts-2ada9485493961c8a1dda9ee17f61b58.js?body=1" for ::1 at 2015-04-01 11:08:14 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:08:15 -0700
+Processing by ShoutsController#index as JSON
+  [1m[36mShout Load (0.2ms)[0m  [1mSELECT "shouts".* FROM "shouts"[0m
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/shouts" for ::1 at 2015-04-01 11:08:19 -0700
+Processing by ShoutsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R1XBSd1RMqMPMV6QHMQMGrdLoyhi68M3/+yl0gQItLeAXwJDbCtObqgiPitEWto4ZQkE3Tg6pr+rMw5lj3I6bQ==", "shout"=>{"message"=>"123", "lat"=>"37.2992683", "lng"=>"-122.00735749999998"}, "commit"=>"Say Hello"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "shouts" ("message", "lat", "lng", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["message", "123"], ["lat", 37.2992683], ["lng", -122.00735749999998], ["created_at", "2015-04-01 18:08:19.233040"], ["updated_at", "2015-04-01 18:08:19.233040"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/shouts
+Completed 302 Found in 3ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:08:19 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 120ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:08:19 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:08:19 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:08:19 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:08:19 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:08:19 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:08:19 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:08:19 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:08:19 -0700
+Processing by ShoutsController#index as JSON
+  [1m[36mShout Load (0.2ms)[0m  [1mSELECT "shouts".* FROM "shouts"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:08:41 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 122ms (Views: 121.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:08:41 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:08:41 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:08:41 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:08:41 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:08:41 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:08:41 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:08:41 -0700
+
+
+Started GET "/assets/shouts-2ada9485493961c8a1dda9ee17f61b58.js?body=1" for ::1 at 2015-04-01 11:08:41 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:08:41 -0700
+Processing by ShoutsController#index as JSON
+  [1m[35mShout Load (0.1ms)[0m  SELECT "shouts".* FROM "shouts"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/shouts" for ::1 at 2015-04-01 11:08:45 -0700
+Processing by ShoutsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2bkjx3cuR/MxRPlM4ZBSEVJnYraiJNHjLXSg9d1tkFges+DNxlQ7PpZXmfe5DoQzgCXFQ/j1tGt5qwtCVhcegg==", "shout"=>{"message"=>"maybe", "lat"=>"37.2992225", "lng"=>"-122.00728269999999"}, "commit"=>"Say Hello"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "shouts" ("message", "lat", "lng", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["message", "maybe"], ["lat", 37.2992225], ["lng", -122.00728269999999], ["created_at", "2015-04-01 18:08:45.158531"], ["updated_at", "2015-04-01 18:08:45.158531"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/shouts
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:08:45 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 170ms (Views: 169.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:08:45 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:08:45 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:08:45 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:08:45 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:08:45 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:08:45 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:08:45 -0700
+
+
+Started GET "/assets/shouts-2ada9485493961c8a1dda9ee17f61b58.js?body=1" for ::1 at 2015-04-01 11:08:45 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:08:45 -0700
+Processing by ShoutsController#index as JSON
+  [1m[35mShout Load (0.2ms)[0m  SELECT "shouts".* FROM "shouts"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/shouts" for ::1 at 2015-04-01 11:09:12 -0700
+Processing by ShoutsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"La1+Dn5K08No3dbR1TfH4p4k2sfsNyGODtjt3OxGZ8zqp70EzzCvDs/OtmqNqRHATGZ9MrbmRAZaB0ZrZzzpFg==", "shout"=>{"message"=>"qwe", "lat"=>"37.2992225", "lng"=>"-122.00728269999999"}, "commit"=>"Say Hello"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shouts" ("message", "lat", "lng", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["message", "qwe"], ["lat", 37.2992225], ["lng", -122.00728269999999], ["created_at", "2015-04-01 18:09:12.343169"], ["updated_at", "2015-04-01 18:09:12.343169"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/shouts
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:09:12 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 126ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:09:12 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:09:12 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:09:12 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:09:12 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:09:12 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:09:12 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:09:12 -0700
+
+
+Started GET "/assets/shouts-2ada9485493961c8a1dda9ee17f61b58.js?body=1" for ::1 at 2015-04-01 11:09:12 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:09:12 -0700
+Processing by ShoutsController#index as JSON
+  [1m[35mShout Load (0.2ms)[0m  SELECT "shouts".* FROM "shouts"
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/shouts" for ::1 at 2015-04-01 11:09:20 -0700
+Processing by ShoutsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z7NFZ2Rj8Vlxj/1zkqWh917kWgXj4I8YEsfntesOlGoIuYZt1RmNlNacncjKO3fVjKb98Lkx6pBGGEwCYHQasA==", "shout"=>{"message"=>"243", "lat"=>"37.299178399999995", "lng"=>"-122.0072858"}, "commit"=>"Say Hello"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "shouts" ("message", "lat", "lng", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["message", "243"], ["lat", 37.299178399999995], ["lng", -122.0072858], ["created_at", "2015-04-01 18:09:20.417367"], ["updated_at", "2015-04-01 18:09:20.417367"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/shouts
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:09:20 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 112ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:09:20 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:09:20 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:09:20 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:09:20 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:09:20 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:09:20 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:09:20 -0700
+
+
+Started GET "/assets/shouts-2ada9485493961c8a1dda9ee17f61b58.js?body=1" for ::1 at 2015-04-01 11:09:20 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:09:20 -0700
+Processing by ShoutsController#index as JSON
+  [1m[35mShout Load (0.3ms)[0m  SELECT "shouts".* FROM "shouts"
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/shouts" for ::1 at 2015-04-01 11:09:24 -0700
+Processing by ShoutsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"THV/ZNd3OMhXAt57t1dvBaUshUnyMSNY2JnnzfLpFt2Lf7xuZg1EBfARvsDvybknd24ivKjgRtCMRkx6eZOYBw==", "shout"=>{"message"=>"879", "lat"=>"37.2993665", "lng"=>"-122.0075015"}, "commit"=>"Say Hello"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shouts" ("message", "lat", "lng", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["message", "879"], ["lat", 37.2993665], ["lng", -122.0075015], ["created_at", "2015-04-01 18:09:24.742451"], ["updated_at", "2015-04-01 18:09:24.742451"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/shouts
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:09:24 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 182ms (Views: 181.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:09:24 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:09:25 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:09:25 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:09:25 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:09:25 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:09:25 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:09:25 -0700
+
+
+Started GET "/assets/shouts-2ada9485493961c8a1dda9ee17f61b58.js?body=1" for ::1 at 2015-04-01 11:09:25 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:09:25 -0700
+Processing by ShoutsController#index as JSON
+  [1m[35mShout Load (0.2ms)[0m  SELECT "shouts".* FROM "shouts"
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/shouts" for ::1 at 2015-04-01 11:09:30 -0700
+Processing by ShoutsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s2MCWZriFW5tYxt2cPRTwG28IGqCNkobplADB6Bto0V0acFTK5hpo8pwe80oaoXiv/6Hn9jnL5Pyj6iwKxctnw==", "shout"=>{"message"=>"sfdgs", "lat"=>"37.2993665", "lng"=>"-122.0075015"}, "commit"=>"Say Hello"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "shouts" ("message", "lat", "lng", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["message", "sfdgs"], ["lat", 37.2993665], ["lng", -122.0075015], ["created_at", "2015-04-01 18:09:30.192889"], ["updated_at", "2015-04-01 18:09:30.192889"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/shouts
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/shouts" for ::1 at 2015-04-01 11:09:30 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 121ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 11:09:30 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 11:09:30 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 11:09:30 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 11:09:30 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 11:09:30 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 11:09:30 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 11:09:30 -0700
+
+
+Started GET "/assets/shouts-2ada9485493961c8a1dda9ee17f61b58.js?body=1" for ::1 at 2015-04-01 11:09:30 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 11:09:30 -0700
+Processing by ShoutsController#index as JSON
+  [1m[35mShout Load (0.2ms)[0m  SELECT "shouts".* FROM "shouts"
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
