@@ -11325,3 +11325,73 @@ Started GET "/" for ::1 at 2015-04-01 10:01:41 -0700
 Processing by ShoutsController#index as JSON
   [1m[35mShout Load (0.3ms)[0m  SELECT "shouts".* FROM "shouts"
 Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-01 10:43:25 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 216ms (Views: 201.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 10:43:26 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 10:43:26 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 10:43:26 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 10:43:26 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 10:43:26 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 10:43:26 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 10:43:26 -0700
+
+
+Started GET "/assets/shouts-779cc756e38601da681945cfb89efaca.js?body=1" for ::1 at 2015-04-01 10:43:26 -0700
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 10:43:31 -0700
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 10:43:31 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 10:43:31 -0700
+
+
+Started GET "/" for ::1 at 2015-04-01 10:44:35 -0700
+Processing by ShoutsController#index as HTML
+  Rendered shouts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 126ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-f197c1e37c7ae3cff6331c75fc630775.css?body=1" for ::1 at 2015-04-01 10:44:35 -0700
+
+
+Started GET "/assets/shout-f47bb6fffd40c1f4710a6d188910c4ec.css?body=1" for ::1 at 2015-04-01 10:44:35 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-01 10:44:35 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-01 10:44:35 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-01 10:44:35 -0700
+
+
+Started GET "/assets/application-d90ab0d661d4f1de705f385fd36947ac.js?body=1" for ::1 at 2015-04-01 10:44:35 -0700
+
+
+Started GET "/assets/shouts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-01 10:44:35 -0700
+
+
+Started GET "/assets/shouts-f965fc18a8edbcc11f357e67d2ab36af.js?body=1" for ::1 at 2015-04-01 10:44:35 -0700
