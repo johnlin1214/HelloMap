@@ -15,7 +15,7 @@ function loadMap() {
   }).addTo(map);
   $.ajax({
     dataType: "json",
-    url: 'http://localhost:3000/',
+    url: 'https://lychee-pudding-4559.herokuapp.com/',
     type: 'GET'
   }).done(function(server_data) {
     server_data.forEach(function(user) {
