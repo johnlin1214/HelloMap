@@ -1,0 +1,53 @@
+h1, h3 {
+  font-family: 'Indie Flower', cursive;
+}
+
+#map {
+  height: 550px;
+}
+
+#shout_lat {
+  display: none;
+}
+
+#shout_lng {
+  display: none;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+};
+
+.btn-primary.raised:active, .btn-primary.raised.active {
+    background: #33a6cc;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+};
+
+.header {
+  height: 1em;
+  display: fixed;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.footer {
+  clear:both;
+  margin-top:20px;
+}
+
+
+

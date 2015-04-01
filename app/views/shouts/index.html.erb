@@ -1,0 +1,46 @@
+
+<nav class="navbar navbar-default">
+  <div class="container flex-center">
+        <h1>HelloWorld</h1>
+  </div>
+</nav>
+
+<div class="container">
+   <div class="row">
+      <div id="user-map" class="col-md-12">
+        <div id="map"></div>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 message">
+      <%= form_for(@shout) do |f| %>
+      <p>
+        <h3><%= f.label :message, "No, but seriously...say hello to the world!" %><br></h3>
+        <%= f.text_field :message, :size=>"50", placeholder: "your message...", :class => 'form-control', :required => true %>
+      </p>
+
+      <p>
+        <%= f.text_field :lat %>
+      </p>
+
+      <p>
+        <%= f.text_field :lng %>
+      </p>
+
+      <p>
+        <%= f.submit "Say Hello", :class => 'btn btn-primary btn-lg raised' %>
+      </p>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="navbar navbar-default message footer">
+  <div class="container">
+    <p>Be sure to allow your browser to use your geolocation! Built using Leaflet.js mapping library, HTML5 Geolocation, Rails - by John Lin</p>
+  </div>
+</div>
+
